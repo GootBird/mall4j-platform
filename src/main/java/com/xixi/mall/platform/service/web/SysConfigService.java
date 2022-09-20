@@ -2,7 +2,6 @@ package com.xixi.mall.platform.service.web;
 
 import com.xixi.mall.platform.entity.SysConfigEntity;
 import com.xixi.mall.platform.manange.SysConfigManage;
-import com.xixi.mall.platform.mapper.SysConfigMapper;
 import com.xixi.mall.platform.vo.request.SysConfigAddEditReq;
 import org.springframework.stereotype.Service;
 
@@ -14,9 +13,6 @@ import java.util.Optional;
  */
 @Service
 public class SysConfigService {
-
-    @Resource
-    private SysConfigMapper sysConfigMapper;
 
     @Resource
     private SysConfigManage sysConfigManage;
